@@ -1,0 +1,316 @@
+/* body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+#form-builder {
+    max-width: 600px;
+    width: 100%;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.form-element {
+    margin-bottom: 10px;
+}
+
+#form-elements {
+    margin-bottom: 20px;
+    
+    
+
+}
+
+#add-element,
+#generate-form {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+#add-element:hover,
+#generate-form:hover {
+    background-color: #45a049;
+} */
+
+
+
+
+/* body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 20px;
+  }
+
+  .form-builder-container,
+  .final-form-container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .form-group {
+    margin-bottom: 15px;
+  }
+
+  .form-group label {
+    display: inline-block;
+    width: 100px;
+    text-align: left;
+    margin-right: 10px;
+    font-weight: bold;
+  }
+
+  .form-group input[type="text"],
+  .form-group select,
+  .form-group input[type="checkbox"] {
+    width: 200px;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+
+  #dynamicFieldsContainer {
+    margin-top: 15px;
+    border-top: 1px solid #ccc;
+    padding-top: 15px;
+  }
+
+  #dynamicFieldsContainer label,
+  #dynamicFieldsContainer input,
+  #dynamicFieldsContainer select {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+
+  button:hover {
+    background-color: #45a049;
+  }
+
+  .final-form-container label,
+  .final-form-container input {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .final-form-container label {
+    font-weight: bold;
+  } */
+
+
+
+  /* body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+#form-builder {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.form-element {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#form-elements {
+    margin-top: 20px;
+}
+
+/* Additional styling for generated form elements */
+/* .generated-element {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}
+
+.generated-element label {
+    font-weight: normal;
+}
+
+.generated-element span {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.generated-element button {
+    background-color: #d9534f;
+}
+
+.generated-element button:hover {
+    background-color: #c9302c;
+} */ 
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f1d9d9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+
+#form-builder {
+    background-color: #e0f497;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    border-radius: 10px;
+    width: 400px;
+    text-align: center;
+}
+
+h1 {
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.form-element {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+    font-weight: bold;
+}
+
+input[type="text"],
+select {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    border: 1px solid #ced4da;
+    border-radius: 6px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+button {
+    background-color: #6f5bf5;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 15px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#form-elements {
+    margin-top: 20px;
+}
+
+/* Additional Styles for Form Elements */
+#form-elements label {
+    display: inline-block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+#form-elements div {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+}
+
+#form-elements input[type="text"] {
+    width: calc(100% - 22px);
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+
